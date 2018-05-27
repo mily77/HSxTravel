@@ -4,7 +4,7 @@
       <div class="area">
       <div class="title border-topbottom">当前城市</div>
       <div class="button-list">
-        <div class="button-wrapper">
+        <div class="button-wrapper" @click="handleCityBack">
           <div class="button">
             <!-- {{this.$store.state.city}} -->
             {{this.currentCity}}
@@ -24,9 +24,6 @@
       <div class="title border-topbottom">{{key}}</div>
       <div class="item-list">
         <div class="item border-bottom" v-for="innerItem of item" :key="innerItem.id" @click="handleCityClick(innerItem.name)">{{innerItem.name}}</div>
-        <div class="item border-bottom">阿拉尔</div>
-        <div class="item border-bottom">阿拉尔</div>
-        <div class="item border-bottom">阿拉尔</div>
       </div>
      </div>
     </div>
@@ -53,6 +50,9 @@ export default {
       // this.$store.dispatch('changeCity', city)
       // this.$store.commit('changeCity', city)
       this.changeCity(city)
+      this.$router.push('/')
+    },
+    handleCityBack () {
       this.$router.push('/')
     },
     ...mapMutations(['changeCity'])
