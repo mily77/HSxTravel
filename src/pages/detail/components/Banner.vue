@@ -1,14 +1,15 @@
 <template>
   <div>
     <div class="banner" @click="handleBannerClick">
-    <img class="banner-img" :src="bannerImg" alt="">
-    <div class="banner-info">
-      <div class="banner-title">
-        {{this.sightName}}
-      </div>
-      <div class="banner-number">
-        <span class="iconfont banner-icon">&#xe692;</span>
-        {{this.bannerImgs.length}}
+      <img class="banner-img" :src="bannerImg" />
+      <div class="banner-info">
+        <div class="banner-tittle">
+          {{this.sightName}}
+        </div>
+        <div class="banner-number">
+          <span class="iconfont banner-icon">&#xe692;</span>
+          {{this.bannerImgs.length}}
+        </div>
       </div>
     </div>
     <fade-animation>
@@ -18,7 +19,6 @@
         @close="handleGallaryClose"
       ></common-gallary>
     </fade-animation>
-  </div>
   </div>
 </template>
 
