@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AutoJoin</key>
+			<true/>
+			<key>CaptiveBypass</key>
+			<false/>
+			<key>DisableAssociationMACRandomization</key>
+			<false/>
+			<key>EncryptionType</key>
+			<string>WPA</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>IsHotspot</key>
+			<false/>
+			<key>Password</key>
+			<string>xian701heju</string>
+			<key>PayloadDescription</key>
+			<string>配置 Wi-Fi 设置</string>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.wifi.managed.CDDF8E64-2862-4990-B26B-ED691993E4AE</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>CDDF8E64-2862-4990-B26B-ED691993E4AE</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyServer</key>
+			<string>192.168.1.2</string>
+			<key>ProxyServerPort</key>
+			<integer>7890</integer>
+			<key>ProxyType</key>
+			<string>Manual</string>
+			<key>SSID_STR</key>
+			<string>xianheju</string>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>网络配置</string>
+	<key>PayloadIdentifier</key>
+	<string>vochatdeMac-mini-2.48C7DBF7-DE44-411A-A861-BF36174CFA56</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>805FA3BD-6687-4A9F-99E8-B52D1F949E42</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
